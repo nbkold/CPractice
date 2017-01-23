@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4A6684471E35EF5800A04832 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6684461E35EF5800A04832 /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		4A6684411E35EF5800A04832 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		4A6684431E35EF5800A04832 /* CPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPractice; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A6684461E35EF5800A04832 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4A6684461E35EF5800A04832 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = CPractice/main.c; sourceTree = "<group>"; };
+		4A6684531E35F26B00A04832 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +38,9 @@
 		4A66843A1E35EF5800A04832 = {
 			isa = PBXGroup;
 			children = (
-				4A6684451E35EF5800A04832 /* CPractice */,
+				4A6684551E36B57600A04832 /* return change */,
+				4A6684501E35F1E700A04832 /* Prime Factorization */,
+				4A66844F1E35EFB400A04832 /* fibonacci */,
 				4A6684441E35EF5800A04832 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +53,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A6684451E35EF5800A04832 /* CPractice */ = {
+		4A66844F1E35EFB400A04832 /* fibonacci */ = {
 			isa = PBXGroup;
 			children = (
 				4A6684461E35EF5800A04832 /* main.c */,
 			);
-			path = CPractice;
+			name = fibonacci;
+			sourceTree = "<group>";
+		};
+		4A6684501E35F1E700A04832 /* Prime Factorization */ = {
+			isa = PBXGroup;
+			children = (
+				4A6684531E35F26B00A04832 /* main.c */,
+			);
+			name = "Prime Factorization";
+			sourceTree = "<group>";
+		};
+		4A6684551E36B57600A04832 /* return change */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "return change";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6684471E35EF5800A04832 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +259,7 @@
 				4A66844C1E35EF5800A04832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
